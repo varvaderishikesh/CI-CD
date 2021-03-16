@@ -1,18 +1,16 @@
 # Jenkins-CI/CD
 
-# Simple DevOps Project -01 
+# Continuous Integration and Continuous Deployment using Jenkins
 
-We know how to use work with each and Git, Jenkins independently. What if you want to collaborate these two? that is where Simple DevOps project helps you. Follow below steps if you are a new guy to DevOps. You love it. 
 
-### Follow this article in **[YouTube](https://www.youtube.com/watch?v=Z9G5stlXoyg)**  
 #### Prerequisites
-1. EC2 instance with tomcat installation **[installation steps video](https://youtu.be/m21nFreFw8A)
-1. Jenkins server **[Get Help here](https://www.youtube.com/watch?v=M32O4Yv0ANc)
+1. EC2 instance with tomcat installation 
+2. Jenkins server 
 
 ### Part-01 : Adding steps for Integration
 ### Steps to create Jenkin job
 1. Login to Jenkins console
-1. Create *Jenkins job*, Fill the following details,
+2. Create *Jenkins job*, Fill the following details,
    - *Source Code Management:*
       - Repository: `https://github.com/ValaxyTech/hello-world.git`
       - Branches to build : `*/master`  
